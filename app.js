@@ -11,9 +11,9 @@ var ecstatic = require('ecstatic'),
   board = new five.Board(),
   colors;
 
-app.use( flatiron.plugins.http, {
+app.use(flatiron.plugins.http, {
   before: [
-    ecstatic( __dirname + '/public/' )
+    ecstatic({ root: __dirname + '/public/' })
   ]
 });
 

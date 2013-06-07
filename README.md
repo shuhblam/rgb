@@ -11,6 +11,7 @@ git clone git://github.com/coleGillespie/rgb.git
 cd rgb
 npm install
 node app
+http://localhost:8422/
 ```
 
 
