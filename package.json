@@ -1,0 +1,15 @@
+{
+  "author": "Cole Gillespie <mcg42387@gmail.com>",
+  "description": "a simple rgb lamp for arduino",
+  "dependencies" : {
+    "flatiron" :  "0.1.x",
+    "union"    :  "0.1.x",
+    "ecstatic" :  "0.1.x",
+    "johnny-five": "0.1.x",
+    "binaryjs": "0.1.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
